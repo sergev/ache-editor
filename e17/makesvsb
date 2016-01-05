@@ -1,0 +1,8 @@
+O=svsb;export O;
+MEM=;export MEM;
+[ ! -f O$O ]  && {
+	mv *.o tmp
+	mv svsb/*.o .
+	cp /dev/null O$O
+}
+make $*

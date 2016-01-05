@@ -1,0 +1,21 @@
+The last time you used the editor in this directory, you crashed or aborted.
+You have these choices:
+
+  1. LE will silently recover the last session and then update the screen;
+     then you should exit before you continue editing.
+       (Normally, select this option.)
+
+  2. LE will replay the last session on the screen;  you should exit before
+     you continue editing.
+       (Select this option if LE continues to crash in response to Option 1;
+       press the interrupt key just before LE completes the replay.  The
+       interrupt key on the LE standard keyboard is CTRL/C.
+
+  3. LE will ignore the crashed or aborted session and forget ahead as per the
+       arguments with which it was invoked.
+       (Select this option only if you do NOT wish to recover the last
+       session's work.)
+
+  4. LE will return you to the shell, having done nothing.
+       (Select this option if you do not know what to do and need assistance
+       from your system administrators.)

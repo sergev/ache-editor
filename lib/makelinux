@@ -1,0 +1,8 @@
+O=.;export O;
+MEM=;export MEM;
+[ -f Olinux ] && {
+	mv *.o linux
+	mv tmp/*.o .
+	rm -f Olinux
+}
+make $*

@@ -1,0 +1,8 @@
+O=.;export O;
+MEM=;export MEM;
+[ -f O286 ] && {
+	mv *.o 286
+	mv tmp/*.o .
+	rm O286
+}
+make $*

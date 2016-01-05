@@ -1,0 +1,1 @@
+make MAKE=makelinux "CC=cc -traditional" $*

@@ -1,0 +1,1 @@
+make MAKE="makesvsb CC=/users/nov/cc/w/cc-" $*

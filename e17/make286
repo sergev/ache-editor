@@ -1,0 +1,8 @@
+O=286;export O;
+MEM="-Ml2 -LARGE -SEG 200 -F 2000";export MEM;
+[ ! -f O$O ]  && {
+	mv *.o tmp
+	mv 286/*.o .
+	cp /dev/null O$O
+}
+make $*

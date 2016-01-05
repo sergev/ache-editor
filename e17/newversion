@@ -1,0 +1,16 @@
+:
+MSG=e;export MSG;
+LANG=english_us.ascii;export LANG
+ver=e.r.c;USER=ache
+mv $ver $ver.b 2> /dev/null
+string0="LE21.2 of `/bin/date`"
+string1="made by <ache@hq.demos.su>"
+echo "short revision = -21;" >> $ver
+echo "short subrev = 2;" >> $ver
+echo "#ifndef lint" >> $ver
+echo "static char whatstr[] = {'@','(','#',')'};" >> $ver
+echo "static char RCSstr[] = {'\$','H','e','a','d','e','r',':',' ',' '};" >> $ver
+echo "#endif" >> $ver
+echo "char verstr[] = \"\\" >> $ver
+echo "$string0 \\" >> $ver
+echo "$string1" '$\\n";' >> $ver
